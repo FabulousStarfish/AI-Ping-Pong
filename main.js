@@ -125,7 +125,7 @@ function move(){
   }
 }
 if(pcscore ==4){
-    fill("#FFA500");
+    fill("#b06286");
     stroke(0)
     rect(0,0,width,height-1);
     fill("white");
