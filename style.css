@@ -11,6 +11,8 @@ body
     padding: 15px;
     font-family: 'Amatic SC',cursive;
     margin-bottom: 20px;
+    position: fixed;
+    width: 100%;
 }
 .glyphicon{
     color: white;
