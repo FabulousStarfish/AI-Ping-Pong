@@ -18,15 +18,30 @@
     </head>
     <body>
         <center>
-            <p id="heading">AI Ping Pong <button class="glyphicon glyphicon-question-sign" data-target="#myModal"></button></p>
+            <p id="heading">AI Ping Pong <button class="glyphicon glyphicon-question-sign" data-toggle="modal" data-target="#myModal"></button></p>
             <br><br><br><br><br>
-            <button onclick="startGame()" id="start_game">Play</button>
+            <button onclick="startGame()" id="start_game">Play</button>&nbsp;&nbsp;<span><button onclick="restart()" id="restart">Restart</button></span>
             <br>
             <br>
             <p id="status"></p>
             <br>
             <br>
-            <div id="canvas"></div>
+            <div id="canvas"></div><br><br>
+            <div id="myModal" class="modal fade">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button class="close" data-dismiss="modal"><b>&times;</b></button>
+                      <h1 id="heading_modal">INTRUCTIONS</h1>
+                    </div>
+                    <div class="modal-body">
+                      <p id="instructions">Move your head up and down to control the paddle. <br>The speed of the ball increases over time, try to hit the ball back as best as possible</p>
+                              
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <div id="footer">Developed by Meghna</div>
         </center>
         <script src="main.js"></script>
     </body>

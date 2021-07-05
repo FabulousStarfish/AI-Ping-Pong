@@ -30,6 +30,16 @@ body
     padding-left: 15px;
     padding-right: 15px;
 }
+#restart{
+    color: white;
+    background-color: #b06286;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 #status{
     font-size: 17.5px;
     color: white;
@@ -39,4 +49,37 @@ body
     padding-left: 15px;    
     border-radius: 10px;
     padding-right: 15px;
+}
+#heading_modal{
+    font-size: 40px;
+    font-family: 'Amatic SC',cursive;
+  }
+.modal-dialog{
+    width: 90%;
+  }
+.instruction-img{
+    width: 45%;
+    height: 350px;
+  }
+.modal-body{
+    font-size: 25px;
+}
+.close{
+    font-size: 50px;
+    color: black;
+}
+#footer{
+    bottom: 0px;
+    position: fixed;
+    padding: 15px;
+    width: 100%;
+    background-color: #6b6299;
+    color: white;
+    font-size: 25px;
+    font-family:'Amatic SC',cursive;
+    z-index: 999999999999999999999999999999999999999999999999999999999;
+}
+canvas{
+    background-color: #6b6299;
+    box-shadow:0px 0px 40px #6b6299;
 }
